@@ -15,6 +15,7 @@ import {
     figma,
     docker,
     kyndryl,
+    tenx,
     seerbytes,
     orel,
     nft,
@@ -127,10 +128,22 @@ import {
   const experiences = [
     {
       title: "Data Engineer",
+      company_name: "TenX",
+      icon: tenx,
+      iconBg: "#383E56",
+      date: "Aug 2023 - Dec 2023",
+      points: [
+        "Developing Data Warehouse solutions utilizing BI Lifecycle phases & methodologies.",
+        "Using the latest technologies like Kafka, Airflow & Snowflake etc to develop tailored solutions.",
+        "Improving the development process by documentation like ISD, SMX, BRD & SLD etc."
+      ],
+    },
+    {
+      title: "Data Engineer",
       company_name: "IBM Kyndryl",
       icon: kyndryl,
       iconBg: "#383E56",
-      date: "Feb 2022 - Present",
+      date: "Feb 2022 - Aug 2023",
       points: [
         "Designing & developing data warehouse solutions with data ingestion from multiple sources (structured/unstructured)",
         "Translate business prepositions into quantitative queries & collect/clean the necessary data.",
@@ -150,18 +163,6 @@ import {
         "Responsible for developing Artificial Intelligence solutions to equip Agricultural drones.",
         "Worked on Computer Vision tasks, from dataset gathering or generation to ML model training.",
         "Trained models to detect, estimate and segment for agricultural surveillance."
-      ],
-    },
-    {
-      title: "Business Developer",
-      company_name: "Seerbytes",
-      icon: seerbytes,
-      iconBg: "#383E56",
-      date: "Mar 2019 - Dec 2019",
-      points: [
-        "Did market research and competitor analysis for company clients.",
-        "Based on data, developed business plans and policies to shape software products for better customer service and business performance.",
-        "Developed various desktop and web applications using Asp .NET for enterprise services in parallel."
       ],
     }
   ];
